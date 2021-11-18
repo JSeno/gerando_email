@@ -1,0 +1,6 @@
+print("Vamos gerar um e-mail?")
+name = input("Digite seu nome: ")
+email = input("Digite o nome do servidor de de e-mail: ")
+
+# Altera o name[0:4] para quantas letras de seu nome que deseja usar.
+print("Seu e-mail é:" + name[0:4] + "@" + email + ".com")
